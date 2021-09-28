@@ -11,7 +11,7 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/FileFormats/RGIS.GeoTIFF/RGIS.GeoTIFF.Console/bin/Debug/net5.0/RGIS.GeoTIFF.Console.dll",
-            "args": [],
+            "args": ["${workspaceFolder}/FileFormats/RGIS.GeoTIFF/SampleData/GoogleEppingen.tif"],
             "cwd": "${workspaceFolder}/FileFormats/RGIS.GeoTIFF/RGIS.GeoTIFF.Console",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
