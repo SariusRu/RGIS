@@ -1,0 +1,14 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project = "RGIS.Units", ".\RGIS.Units\RGIS.Units.csproj"
+EndProject
+Project = "RGIS.Units.Test", ".\RGIS.Units.Test\RGIS.Units.Test.csproj"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal

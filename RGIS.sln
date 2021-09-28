@@ -4,6 +4,10 @@ Project = "RGIS.Logger", "Utilities/RGIS.Logger/RGIS.Logger/RGIS.Logger.csproj"
 EndProject
 Project = "RGIS.Logger.Test", "Utilities/RGIS.Logger/RGIS.Logger.Test/RGIS.Logger.Test.csproj"
 EndProject
+Project = "RGIS.Units", "Data/RGIS.Units/RGIS.Units/RGIS.Units.csproj"
+EndProject
+Project = "RGIS.Units.Test", "Data/RGIS.Units/RGIS.Units.Test/RGIS.Units.Test.csproj"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
