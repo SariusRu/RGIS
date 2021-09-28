@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Samuel Rundel</Authors>
+    <Product>RGIS</Product>
+    <Description>RGIS is a cloud-based Geographic Information System in the making. RGIS.Units is the first part towards that, implementing all kind of distance units from all over the world and systems.</Description>
+    <Copyright>Samuel Rundel</Copyright>
+    <PackageProjectUrl>gis.run-s.de</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>RGIS_Logo.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/SariusRu/RGIS.Units</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>gis distance unit metric imperial conversion</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <ApplicationIcon>RGIS_Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Doxygen\**" />
+    <EmbeddedResource Remove="Doxygen\**" />
+    <None Remove="Doxygen\**" />
+    <None Include="..\RGIS.Logo\RGIS_Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UnitData.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UnitData.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UnitData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UnitData.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
