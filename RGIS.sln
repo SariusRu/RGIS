@@ -1,16 +1,46 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project = "RGIS.Logger", "Utilities/RGIS.Logger/RGIS.Logger/RGIS.Logger.csproj"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGIS.Logger", "Utilities\RGIS.Logger\RGIS.Logger\RGIS.Logger.csproj", "{E6D7FBC5-6584-4727-B483-4A11C525FBA9}"
 EndProject
-Project = "RGIS.Logger.Test", "Utilities/RGIS.Logger/RGIS.Logger.Test/RGIS.Logger.Test.csproj"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGIS.Logger.Test", "Utilities\RGIS.Logger\RGIS.Logger.Test\RGIS.Logger.Test.csproj", "{DE61C6CB-CE7D-4F15-8E71-4E606AEBD09C}"
 EndProject
-Project = "RGIS.Units", "Data/RGIS.Units/RGIS.Units/RGIS.Units.csproj"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGIS.Units", "Data\RGIS.Units\RGIS.Units\RGIS.Units.csproj", "{90D1CED8-9B4F-4A9D-9DFE-36B27785AAAF}"
 EndProject
-Project = "RGIS.Units.Test", "Data/RGIS.Units/RGIS.Units.Test/RGIS.Units.Test.csproj"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGIS.Units.Test", "Data\RGIS.Units\RGIS.Units.Test\RGIS.Units.Test.csproj", "{D647F0AA-1AD3-4FE8-A722-D9084D9CD5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGIS.GeoTIFF", "FileFormats\RGIS.GeoTIFF\RGIS.GeoTIFF\RGIS.GeoTIFF.csproj", "{727C4C9F-121C-4CB0-9FAC-7684BC123285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGIS.GeoTIFF.Console", "FileFormats\RGIS.GeoTIFF\RGIS.GeoTIFF.Console\RGIS.GeoTIFF.Console.csproj", "{41736D4C-A0D5-4868-A07F-3DB4A36A685E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D7FBC5-6584-4727-B483-4A11C525FBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D7FBC5-6584-4727-B483-4A11C525FBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D7FBC5-6584-4727-B483-4A11C525FBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D7FBC5-6584-4727-B483-4A11C525FBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE61C6CB-CE7D-4F15-8E71-4E606AEBD09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE61C6CB-CE7D-4F15-8E71-4E606AEBD09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE61C6CB-CE7D-4F15-8E71-4E606AEBD09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE61C6CB-CE7D-4F15-8E71-4E606AEBD09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D1CED8-9B4F-4A9D-9DFE-36B27785AAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D1CED8-9B4F-4A9D-9DFE-36B27785AAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D1CED8-9B4F-4A9D-9DFE-36B27785AAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D1CED8-9B4F-4A9D-9DFE-36B27785AAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D647F0AA-1AD3-4FE8-A722-D9084D9CD5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D647F0AA-1AD3-4FE8-A722-D9084D9CD5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D647F0AA-1AD3-4FE8-A722-D9084D9CD5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D647F0AA-1AD3-4FE8-A722-D9084D9CD5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727C4C9F-121C-4CB0-9FAC-7684BC123285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727C4C9F-121C-4CB0-9FAC-7684BC123285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727C4C9F-121C-4CB0-9FAC-7684BC123285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727C4C9F-121C-4CB0-9FAC-7684BC123285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41736D4C-A0D5-4868-A07F-3DB4A36A685E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41736D4C-A0D5-4868-A07F-3DB4A36A685E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41736D4C-A0D5-4868-A07F-3DB4A36A685E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41736D4C-A0D5-4868-A07F-3DB4A36A685E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
