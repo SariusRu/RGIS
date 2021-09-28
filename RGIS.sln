@@ -1,0 +1,12 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project = "RGIS.Logger", "Utilities/RGIS.Logger/RGIS.Logger/RGIS.Logger.csproj"
+EndProject
+Project = "RGIS.Logger.Test", "Utilities/RGIS.Logger/RGIS.Logger.Test/RGIS.Logger.Test.csproj"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
